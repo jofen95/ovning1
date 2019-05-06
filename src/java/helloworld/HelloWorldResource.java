@@ -84,5 +84,6 @@ public class HelloWorldResource {
     @Consumes("text/plain")
     public void setName(String content) {
         nameStorage.setName(content);
+        TESTTEST
     }
 }
