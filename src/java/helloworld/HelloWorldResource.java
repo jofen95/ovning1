@@ -79,7 +79,9 @@ public class HelloWorldResource {
      * PUT method for updating an instance of HelloWorldResource
      * @param content representation for the resource
      * @return an HTTP response with content of the updated or created resource.
-     */
+     *VAD HÄNDER NU MÅN TRO
+     * 
+     * /
     @PUT
     @Consumes("text/plain")
     public void setName(String content) {
